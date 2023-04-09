@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpefkio2rpfpw"]
+
+[ext_resource type="Script" path="res://game/planets_gravity_handler.gd" id="1_4bysc"]
+[ext_resource type="PackedScene" uid="uid://bt3opip5ulna3" path="res://game/space_object/earth/earth.tscn" id="1_d4ffm"]
+[ext_resource type="PackedScene" uid="uid://32mx8erpbbsp" path="res://game/space_object/moon/moon.tscn" id="3_hyobl"]
+
+[node name="game" type="Node2D"]
+
+[node name="scripts" type="Node" parent="."]
+
+[node name="planets" type="Node" parent="."]
+script = ExtResource("1_4bysc")
+
+[node name="earth" parent="planets" instance=ExtResource("1_d4ffm")]
+
+[node name="moon" parent="planets" instance=ExtResource("3_hyobl")]
+position = Vector2(384.467, 0)

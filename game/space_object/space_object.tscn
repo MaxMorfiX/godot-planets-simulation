@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2fma8w6y2bd1"]
+
+[ext_resource type="Script" path="res://game/space_object/space_object.gd" id="1_26qe7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6tsk6"]
+radius = 650.0
+
+[node name="space_object" type="RigidBody2D"]
+position = Vector2(-16, 0)
+script = ExtResource("1_26qe7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_6tsk6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

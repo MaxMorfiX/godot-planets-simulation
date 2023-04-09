@@ -1,0 +1,8 @@
+res://game/space_object/space_object.tscn
+res://game/space_object/space_object.gd
+res://game/game.tscn
+res://game/space_object/earth.tscn
+res://game/space_object/earth/earth.gd
+res://game/space_object/earth/earth.tscn
+res://game/planets_gravity_handler.gd
+res://game/space_object/moon/moon.tscn

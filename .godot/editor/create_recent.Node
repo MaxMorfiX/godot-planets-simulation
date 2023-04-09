@@ -1,0 +1,6 @@
+CollisionShape2D
+Camera2D
+RigidBody2D
+Node
+MultiplayerSpawner
+Sprite2D

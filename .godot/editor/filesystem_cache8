@@ -1,0 +1,15 @@
+2a60927148abd1d33b818b535e306557
+::res://::1681059928
+icon.svg::CompressedTexture2D::7154108485056601105::1681059772::1681059780::1::::<><>::
+::res://game/::1681068013
+game.tscn::PackedScene::8220674102633042320::1681068013::0::1::::<><>::res://game/planets_gravity_handler.gd<>uid://bt3opip5ulna3
+planets_gravity_handler.gd::GDScript::-1::1681067843::0::1::::<>Node<>::
+::res://game/space_object/::1681070114
+space_object.gd::GDScript::-1::1681067158::0::1::::Space_object<>Node<>::
+space_object.tscn::PackedScene::9065413090687558588::1681067643::0::1::::<><>::res://game/space_object/space_object.gd
+::res://game/space_object/earth/::1681072586
+earth.png::CompressedTexture2D::1695486670715653749::1681061471::1681067393::1::::<><>::
+earth.tscn::PackedScene::3778688559485798248::1681072819::0::1::::<><>::uid://d2fma8w6y2bd1<>uid://yfkog6ml7u6x
+::res://game/space_object/moon/::1681072881
+moon.png::CompressedTexture2D::9183877250784640770::1681072882::1681072885::1::::<><>::
+::res://game/space_object/sprites/::1681067392

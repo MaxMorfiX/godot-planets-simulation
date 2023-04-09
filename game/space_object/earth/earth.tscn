@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt3opip5ulna3"]
+
+[ext_resource type="PackedScene" uid="uid://d2fma8w6y2bd1" path="res://game/space_object/space_object.tscn" id="1_0kcdb"]
+[ext_resource type="Texture2D" uid="uid://yfkog6ml7u6x" path="res://game/space_object/earth/earth.png" id="3_6xgyq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kac3w"]
+radius = 6.37
+
+[node name="earth" instance=ExtResource("1_0kcdb")]
+position = Vector2(0, 0)
+mass = 59742.0
+mass_multiplier = 20
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource("CircleShape2D_kac3w")
+
+[node name="Sprite2D" parent="." index="1"]
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("3_6xgyq")

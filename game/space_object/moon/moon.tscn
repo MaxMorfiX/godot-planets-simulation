@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://32mx8erpbbsp"]
+
+[ext_resource type="PackedScene" uid="uid://d2fma8w6y2bd1" path="res://game/space_object/space_object.tscn" id="1_8ikua"]
+[ext_resource type="Texture2D" uid="uid://d330d7ypqlv1c" path="res://game/space_object/moon/moon.png" id="2_jddca"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jp3bp"]
+radius = 1.74
+
+[node name="moon" instance=ExtResource("1_8ikua")]
+position = Vector2(0, 0)
+mass = 736.0
+mass_multiplier = 20
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource("CircleShape2D_jp3bp")
+
+[node name="Sprite2D" parent="." index="1"]
+scale = Vector2(0.002, 0.002)
+texture = ExtResource("2_jddca")
